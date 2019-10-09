@@ -32,6 +32,7 @@ Private Function is_not_empty() As Boolean
 End Function
 
 Private Function first_key() As Variant
+    Dim keys() As Variant
     keys = dict.keys
     first_key = keys(0)
 End Function
