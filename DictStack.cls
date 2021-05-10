@@ -5,6 +5,7 @@ Dim dict
 Private Sub Class_Initialize()
     Set dict = CreateObject("scripting.dictionary")
 End Sub
+    
 Public Sub push(key As Variant, value As Variant)
     dict.Add key, value
 End Sub
